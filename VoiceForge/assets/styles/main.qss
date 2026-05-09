@@ -1,0 +1,9 @@
+/* VoiceForge Dark Theme */
+QMainWindow { background-color: #1a1a2e; }
+QWidget { color: #e0e0e0; font-family: "Segoe UI", "SF Pro Display", "Ubuntu", sans-serif; font-size: 13px; }
+QLabel { color: #e0e0e0; }
+QPushButton { background-color: #0f3460; border: none; border-radius: 6px; padding: 8px 16px; color: #e0e0e0; font-weight: 600; }
+QPushButton:hover { background-color: #e94560; color: #ffffff; }
+QPlainTextEdit { background-color: #16213e; border: 1px solid #0f3460; border-radius: 8px; padding: 10px; color: #e0e0e0; }
+QProgressBar { background-color: #16213e; border: none; border-radius: 6px; text-align: center; color: #e0e0e0; height: 20px; }
+QProgressBar::chunk { background-color: #e94560; border-radius: 6px; }
