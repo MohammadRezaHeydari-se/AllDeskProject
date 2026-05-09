@@ -1,0 +1,36 @@
+# ─── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+*.log
+
+# ─── Virtual environments ──────────────────────────────
+venv/
+.env/
+.envrc
+
+# ─── IDE ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── VoiceForge ML model weights ───────────────────────
+VoiceForge/models/
+VoiceForge/logs/
+
+# ─── Project-specific ──────────────────────────────────
+config.json
+*.env
+.env.local
