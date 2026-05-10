@@ -1,6 +1,6 @@
 # AllDeskProject
 
-A collection of desktop applications.
+A collection of diverse projects — including desktop apps, web applications, CLI tools, mobile apps, scripts, and anything else worth building.
 
 ---
 
