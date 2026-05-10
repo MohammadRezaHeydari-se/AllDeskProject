@@ -22,6 +22,20 @@ Status: MVP v1.0
 
 → [VoiceForge README](VoiceForge/README.md)
 
+### ToonForge
+
+**2D Dialogue Scene Generator**
+
+ToonForge is a lightweight web-based animation pipeline for automatic dialogue scene generation. Import character images and audio files, and it auto-generates animated scenes with lip-sync, blinking, and head movement. Built with React/Next.js, FastAPI, and FFmpeg.
+
+```
+Location: ToonForge/
+Tech: React 18, Next.js 14, FastAPI, FFmpeg, Python 3.12
+Status: MVP v1.0
+```
+
+→ [ToonForge README](ToonForge/README.md)
+
 ---
 
 ## Technologies
@@ -43,6 +57,9 @@ Status: MVP v1.0
 AllDeskProject/
 ├── VoiceForge/          # AI TTS desktop application
 │   └── src/             # Source code (app, core, ui, services, models)
+├── ToonForge/           # 2D dialogue scene animation studio
+│   ├── backend/         # FastAPI server
+│   └── frontend/        # React/Next.js UI
 ├── README.md            # This file
 ```
 

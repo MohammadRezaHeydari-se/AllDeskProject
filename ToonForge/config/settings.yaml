@@ -1,0 +1,44 @@
+app:
+  name: "ToonForge"
+  version: "1.0.0"
+
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 2
+
+rendering:
+  ffmpeg_path: "ffmpeg"
+  default_fps: 30
+  default_width: 1920
+  default_height: 1080
+
+animation:
+  blink_min_interval: 30
+  blink_max_interval: 180
+  blink_frames: 5
+  head_bob_speed: 3.0
+  head_bob_idle_speed: 1.5
+  head_bob_amplitude: 0.02
+  mouth_scale_factor: 3.0
+
+audio:
+  sample_rate: 22050
+  hop_length_factor: 1.0
+  smooth_window: 3
+
+export:
+  formats:
+    - "horizontal"
+    - "vertical"
+    - "both"
+  quality_presets:
+    high:
+      crf: "18"
+      preset: "medium"
+    medium:
+      crf: "23"
+      preset: "fast"
+    low:
+      crf: "28"
+      preset: "veryfast"
