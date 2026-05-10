@@ -34,6 +34,20 @@ ToonForge is a web-based animation pipeline for automatic dialogue scene generat
 
 ---
 
+### NetGuard
+
+**Home Network Manager & Parental Control**
+
+NetGuard discovers all devices on your home WiFi network and lets you pause internet per-device via ARP-based controls. No router admin password required — works purely at the network level. Features scheduled access rules, live device monitoring, and dual-password protection.
+
+- **Location:** `WifiTester/`
+- **Technologies:** Python 3.12, PySide6, scapy, bcrypt, SQLite
+- **Status:** MVP v1.0
+
+→ [NetGuard README & Documentation](WifiTester/README.md)
+
+---
+
 ## Repository Structure
 
 ```
@@ -43,6 +57,8 @@ AllDeskProject/
 ├── ToonForge/           # 2D dialogue scene animation studio
 │   ├── backend/         # FastAPI server
 │   └── frontend/        # React/Next.js UI
+├── WifiTester/          # Home network manager (NetGuard)
+│   └── src/             # Source code (app, core, ui, models, utils)
 └── README.md            # This file
 ```
 

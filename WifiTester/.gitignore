@@ -1,0 +1,37 @@
+# ─── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# ─── Virtual environments ──────────────────────────────
+venv/
+.env/
+.envrc
+
+# ─── IDE ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# ─── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Project-specific ──────────────────────────────────
+*.db
+config.json
+*.env
+.env.local
+
+# ─── Logs ──────────────────────────────────────────────
+logs/
+*.log

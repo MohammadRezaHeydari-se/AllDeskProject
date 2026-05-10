@@ -1,0 +1,15 @@
+[project]
+name = "netguard"
+version = "1.0.0"
+description = "Home network manager — parental control for your own WiFi"
+requires-python = ">=3.12"
+dependencies = [
+    "PySide6>=6.6.0",
+    "scapy>=2.5.0",
+    "bcrypt>=4.1.0",
+    "netifaces>=0.11.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
