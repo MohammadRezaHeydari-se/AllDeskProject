@@ -34,3 +34,6 @@ VoiceForge/logs/
 config.json
 *.env
 .env.local
+
+# ─── Private internal docs (do NOT push to public repo) ─
+PROJECT_STRUCTURE_GUIDE.md
